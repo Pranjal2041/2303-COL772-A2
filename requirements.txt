@@ -3,3 +3,4 @@ numpy
 gensim
 pandas
 nltk
+datefinder
