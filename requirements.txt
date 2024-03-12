@@ -4,3 +4,4 @@ gensim
 pandas
 nltk
 datefinder
+unidecode
