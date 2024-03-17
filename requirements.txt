@@ -5,3 +5,5 @@ pandas
 nltk
 datefinder
 unidecode
+tqdm
+scikit-learn
