@@ -7,3 +7,4 @@ datefinder
 unidecode
 tqdm
 scikit-learn
+gdown
