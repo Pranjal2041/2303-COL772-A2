@@ -1,0 +1,94 @@
+Starting Training
+Start Col Training
+Epoch 1/70, Loss: 0.01498345039508961, Val Accuracy : 2334
+Epoch 2/70, Loss: 0.0052414611958795125, Val Accuracy : 2588
+Epoch 3/70, Loss: 0.003532540143639953, Val Accuracy : 2652
+Epoch 4/70, Loss: 0.002657610811293125, Val Accuracy : 2668
+Epoch 5/70, Loss: 0.0021157087890638247, Val Accuracy : 2697
+Epoch 6/70, Loss: 0.0017031251948188852, Val Accuracy : 2702
+Epoch 7/70, Loss: 0.001344139121748783, Val Accuracy : 2696
+Epoch 8/70, Loss: 0.0010723612425779855, Val Accuracy : 2703
+Epoch 9/70, Loss: 0.0008933087371427704, Val Accuracy : 2724
+Epoch 10/70, Loss: 0.000735562534381946, Val Accuracy : 2708
+Epoch 11/70, Loss: 0.000626806680906426, Val Accuracy : 2710
+Epoch 12/70, Loss: 0.0005661547258841218, Val Accuracy : 2720
+Epoch 13/70, Loss: 0.0005085131230039729, Val Accuracy : 2714
+Epoch 14/70, Loss: 0.0004498346765456652, Val Accuracy : 2728
+Epoch 15/70, Loss: 0.00046767641265911086, Val Accuracy : 2713
+Epoch 16/70, Loss: 0.0003917599434929865, Val Accuracy : 2724
+Epoch 17/70, Loss: 0.0003265412501145706, Val Accuracy : 2721
+Epoch 18/70, Loss: 0.0003204213612178272, Val Accuracy : 2727
+Epoch 19/70, Loss: 0.0003267489036683131, Val Accuracy : 2706
+Epoch 20/70, Loss: 0.0003858687807460902, Val Accuracy : 2710
+Epoch 21/70, Loss: 0.0004589889668687074, Val Accuracy : 2718
+Epoch 22/70, Loss: 0.000340268630836228, Val Accuracy : 2725
+Epoch 23/70, Loss: 0.00027907725393392697, Val Accuracy : 2728
+Epoch 24/70, Loss: 0.0002033881699166226, Val Accuracy : 2744
+Epoch 25/70, Loss: 0.00021875470310570328, Val Accuracy : 2744
+Epoch 26/70, Loss: 0.00023065444552425847, Val Accuracy : 2719
+Epoch 27/70, Loss: 0.00022417751046035578, Val Accuracy : 2716
+Epoch 28/70, Loss: 0.00027709189192736864, Val Accuracy : 2703
+Epoch 29/70, Loss: 0.0002694578753715312, Val Accuracy : 2722
+Epoch 30/70, Loss: 0.00022422562752574406, Val Accuracy : 2721
+Epoch 31/70, Loss: 0.00023263262649911835, Val Accuracy : 2714
+Epoch 32/70, Loss: 0.00017755535889322076, Val Accuracy : 2746
+Epoch 33/70, Loss: 0.00017599617508541862, Val Accuracy : 2749
+Epoch 34/70, Loss: 0.00017803763409783305, Val Accuracy : 2731
+Epoch 35/70, Loss: 0.00019018160016060357, Val Accuracy : 2733
+Epoch 36/70, Loss: 0.00016205620543634588, Val Accuracy : 2740
+Epoch 37/70, Loss: 0.00015752706685560514, Val Accuracy : 2740
+Epoch 38/70, Loss: 0.00022997460803189488, Val Accuracy : 2727
+Epoch 39/70, Loss: 0.00029258174637194584, Val Accuracy : 2706
+Epoch 40/70, Loss: 0.00025461990766537687, Val Accuracy : 2733
+Epoch 41/70, Loss: 0.00015288931730901822, Val Accuracy : 2742
+Epoch 42/70, Loss: 0.00012582208689612646, Val Accuracy : 2749
+Epoch 43/70, Loss: 0.00011231187968062133, Val Accuracy : 2751
+Epoch 44/70, Loss: 0.00010732029039246738, Val Accuracy : 2752
+Epoch 45/70, Loss: 0.00010642835158958204, Val Accuracy : 2745
+Epoch 46/70, Loss: 0.00010331317182431963, Val Accuracy : 2745
+Epoch 47/70, Loss: 0.00010238808080181048, Val Accuracy : 2752
+Epoch 48/70, Loss: 0.00010038324744932147, Val Accuracy : 2750
+Epoch 49/70, Loss: 0.00010020386393093591, Val Accuracy : 2745
+Epoch 50/70, Loss: 0.00010759716300634426, Val Accuracy : 2739
+Epoch 51/70, Loss: 0.0006210385310825788, Val Accuracy : 2693
+Epoch 52/70, Loss: 0.00040373916368655586, Val Accuracy : 2730
+Epoch 53/70, Loss: 0.00015613355157094905, Val Accuracy : 2727
+Epoch 54/70, Loss: 0.00012163516747359945, Val Accuracy : 2729
+Epoch 55/70, Loss: 0.00010948274773976731, Val Accuracy : 2733
+Epoch 56/70, Loss: 0.00010459685847766836, Val Accuracy : 2738
+Epoch 57/70, Loss: 0.00010100284442456474, Val Accuracy : 2733
+Epoch 58/70, Loss: 9.857641980677188e-05, Val Accuracy : 2736
+Epoch 59/70, Loss: 9.627233373531555e-05, Val Accuracy : 2736
+Epoch 60/70, Loss: 9.43859273792003e-05, Val Accuracy : 2736
+Epoch 61/70, Loss: 9.310484959698644e-05, Val Accuracy : 2740
+Epoch 62/70, Loss: 9.203725988454944e-05, Val Accuracy : 2736
+Epoch 63/70, Loss: 9.581732650932046e-05, Val Accuracy : 2746
+Epoch 64/70, Loss: 0.0003743341024059595, Val Accuracy : 2676
+Epoch 65/70, Loss: 0.00041678091015287294, Val Accuracy : 2694
+Epoch 66/70, Loss: 0.0001748995738582582, Val Accuracy : 2724
+Epoch 67/70, Loss: 0.0001249312763555079, Val Accuracy : 2729
+Epoch 68/70, Loss: 0.00010830526925295729, Val Accuracy : 2732
+Epoch 69/70, Loss: 0.0001024324928574195, Val Accuracy : 2731
+Epoch 70/70, Loss: 9.854534751071629e-05, Val Accuracy : 2734
+Epoch 1/10, Loss: 0.3729977738774501
+Epoch 2/10, Loss: 0.34995940220734095
+Epoch 3/10, Loss: 0.3439771289885659
+Epoch 4/10, Loss: 0.3367097053526688
+Epoch 5/10, Loss: 0.3320366974738643
+Epoch 6/10, Loss: 0.3224111664148394
+Epoch 7/10, Loss: 0.3132736871183457
+Epoch 8/10, Loss: 0.30303289340411943
+Epoch 9/10, Loss: 0.2947668473160951
+Epoch 10/10, Loss: 0.28877833584458606
+  adding: colmod.pth (deflated 7%)
+  adding: rowmod.pth (deflated 8%)
+Starting Evaluation
+Archive:  merged.zip
+  inflating: colmod.pth              
+  inflating: rowmod.pth              
+Evaluating Submission
+### Evaluation Results ###
+Row score: 0.850600000
+Column score: 0.917000000
+Cell score: 0.782400000
+Aggregate score: 0.850000000

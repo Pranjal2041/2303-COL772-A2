@@ -1,0 +1,18 @@
+/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/cs1210563/train.py:412: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  batch_question_embedddings_tensor = torch.tensor(batch_question_embedddings, dtype=torch.float32).to(device)
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/cs1210563/test.py", line 232, in <module>
+    word2vec_model = KeyedVectors.load(word2vec_model_path)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/gensim/utils.py", line 487, in load
+    obj._load_specials(fname, mmap, compress, subname)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/gensim/models/keyedvectors.py", line 263, in _load_specials
+    super(KeyedVectors, self)._load_specials(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/gensim/utils.py", line 529, in _load_specials
+    val = np.load(subname(fname, attrib), mmap_mode=mmap)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/numpy/lib/npyio.py", line 427, in load
+    fid = stack.enter_context(open(os_fspath(file), "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'extracted_models/models_folder/trained_word2vec.model.vectors.npy'
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/evaluate_submission.py", line 12, in <module>
+    sub_file = [json.loads(x) for x in open(submission_file)]
+FileNotFoundError: [Errno 2] No such file or directory: 'cs1210563/predictions_new.jsonl'

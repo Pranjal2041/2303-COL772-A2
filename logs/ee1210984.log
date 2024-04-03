@@ -1,0 +1,5 @@
+Starting Training
+Training the model with train data ../data/A2_train.jsonl and validation data ../data/A2_val.jsonl
+Starting Evaluation
+Running inference on ../data/A2_test.jsonl and saving predictions to predictions_new.jsonl
+Evaluating Submission

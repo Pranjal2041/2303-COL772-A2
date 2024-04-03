@@ -1,0 +1,34 @@
+Starting Training
+../data/A2_val.jsonl
+Training the model
+train_column.py
+data processed!
+column data generated!
+Glove Model downloaded
+ColumnPredictor(
+  (question_encoder): QuestionColumnEncoder(
+    (gru): GRU(300, 512, num_layers=2, batch_first=True)
+    (layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (fc1): Linear(in_features=512, out_features=256, bias=True)
+    (fc2): Linear(in_features=256, out_features=128, bias=True)
+    (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (layer_norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+  )
+  (column_encoder): ColumnEncoder(
+    (gru): GRU(300, 512, num_layers=2, batch_first=True)
+    (layer_norm): LayerNorm((512,), eps=1e-05, elementwise_affine=True)
+    (fc1): Linear(in_features=512, out_features=256, bias=True)
+    (fc2): Linear(in_features=256, out_features=128, bias=True)
+    (layer_norm1): LayerNorm((256,), eps=1e-05, elementwise_affine=True)
+    (layer_norm2): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+  )
+  (fc): Linear(in_features=256, out_features=128, bias=True)
+  (fc1): Linear(in_features=128, out_features=1, bias=True)
+  (layer_norm): LayerNorm((128,), eps=1e-05, elementwise_affine=True)
+  (sigmoid): Sigmoid()
+)
+data processed!
+Glove Model downloaded
+Starting Evaluation
+../data/A2_test.jsonl
+Evaluating Submission

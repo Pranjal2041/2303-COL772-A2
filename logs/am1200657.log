@@ -1,0 +1,112 @@
+Starting Training
+Starting Training...
+Model Started.
+Epoch 1, Average Loss: 2.0089150188065794
+Training Accuracy: 0.845682302771855
+Validation Accuracy: 0.8584792993630573
+Epoch 2, Average Loss: 1.925496361911424
+Training Accuracy: 0.8668376865671642
+Validation Accuracy: 0.8769904458598726
+Epoch 3, Average Loss: 1.906725789184001
+Training Accuracy: 0.8840951492537313
+Validation Accuracy: 0.8982882165605095
+Epoch 4, Average Loss: 1.8919235962286178
+Training Accuracy: 0.9071495202558635
+Validation Accuracy: 0.9175955414012739
+Epoch 5, Average Loss: 1.8779481729464744
+Training Accuracy: 0.9215751599147122
+Validation Accuracy: 0.9305334394904459
+Epoch 6, Average Loss: 1.8699667951953944
+Training Accuracy: 0.9288712686567164
+Validation Accuracy: 0.9365047770700637
+Epoch 7, Average Loss: 1.862231602546757
+Training Accuracy: 0.9352678571428571
+Validation Accuracy: 0.9430732484076433
+Epoch 8, Average Loss: 1.8562955499203728
+Training Accuracy: 0.941331289978678
+Validation Accuracy: 0.9484474522292994
+Epoch 9, Average Loss: 1.853885794753459
+Training Accuracy: 0.9443296908315565
+Validation Accuracy: 0.9532245222929936
+Epoch 10, Average Loss: 1.848425194779947
+Training Accuracy: 0.9486607142857143
+Validation Accuracy: 0.9552149681528662
+Epoch 11, Average Loss: 1.8428876924870619
+Training Accuracy: 0.9540245202558635
+Validation Accuracy: 0.9583996815286624
+Epoch 12, Average Loss: 1.8387151275362288
+Training Accuracy: 0.9573560767590619
+Validation Accuracy: 0.9609872611464968
+Epoch 13, Average Loss: 1.836185227706234
+Training Accuracy: 0.9357675906183369
+Validation Accuracy: 0.9408837579617835
+Epoch 14, Average Loss: 1.8351677499854488
+Training Accuracy: 0.9607875799573561
+Validation Accuracy: 0.9623805732484076
+Epoch 15, Average Loss: 1.8300044896251866
+Training Accuracy: 0.9655183901918977
+Validation Accuracy: 0.9651671974522293
+Starting Evaluation
+Starting Inference...
+Evaluating Submission
+### Evaluation Results ###
+Row score: 0.720600000
+Column score: 0.887600000
+Cell score: 0.641000000
+Aggregate score: 0.749733333
+Starting Training
+Starting Training...
+Model Started.
+Epoch 1, Average Loss: 2.009806418850986
+Training Accuracy: 0.8450826226012793
+Validation Accuracy: 0.8550955414012739
+Epoch 2, Average Loss: 1.9263220451025567
+Training Accuracy: 0.867137526652452
+Validation Accuracy: 0.8775875796178344
+Epoch 3, Average Loss: 1.9069583427423098
+Training Accuracy: 0.8765991471215352
+Validation Accuracy: 0.8871417197452229
+Epoch 4, Average Loss: 1.891369556440219
+Training Accuracy: 0.9117803837953091
+Validation Accuracy: 0.919187898089172
+Epoch 5, Average Loss: 1.8779816328843772
+Training Accuracy: 0.9219749466950959
+Validation Accuracy: 0.9299363057324841
+Epoch 6, Average Loss: 1.869369722124356
+Training Accuracy: 0.9293710021321961
+Validation Accuracy: 0.9390923566878981
+Epoch 7, Average Loss: 1.8636514200076366
+Training Accuracy: 0.9344016524520256
+Validation Accuracy: 0.9432722929936306
+Epoch 8, Average Loss: 1.8568017767436469
+Training Accuracy: 0.9429304371002132
+Validation Accuracy: 0.951234076433121
+Epoch 9, Average Loss: 1.8516591428947855
+Training Accuracy: 0.9437633262260128
+Validation Accuracy: 0.9536226114649682
+Epoch 10, Average Loss: 1.846791144500155
+Training Accuracy: 0.9500932835820896
+Validation Accuracy: 0.9568073248407644
+Epoch 11, Average Loss: 1.8427924987858038
+Training Accuracy: 0.9538912579957356
+Validation Accuracy: 0.9601910828025477
+Epoch 12, Average Loss: 1.838910078316101
+Training Accuracy: 0.956922974413646
+Validation Accuracy: 0.9611863057324841
+Epoch 13, Average Loss: 1.8358719911910832
+Training Accuracy: 0.9584554904051172
+Validation Accuracy: 0.9625796178343949
+Epoch 14, Average Loss: 1.8330501609011245
+Training Accuracy: 0.9606543176972282
+Validation Accuracy: 0.9627786624203821
+Epoch 15, Average Loss: 1.8307403456936004
+Training Accuracy: 0.9630863539445629
+Validation Accuracy: 0.9657643312101911
+Starting Evaluation
+Starting Inference...
+Evaluating Submission
+### Evaluation Results ###
+Row score: 0.720600000
+Column score: 0.877800000
+Cell score: 0.633400000
+Aggregate score: 0.743933333

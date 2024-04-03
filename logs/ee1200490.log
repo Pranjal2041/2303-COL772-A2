@@ -1,0 +1,14 @@
+Starting Evaluation
+Number of questions: 5000
+Number of tables: 5000
+Number of actual columns: 5000
+Number of qids is  5000
+Model loaded
+Testing the model...
+Testing complete
+Evaluating Submission
+### Evaluation Results ###
+Row score: 0.889400000
+Column score: 0.841000000
+Cell score: 0.753000000
+Aggregate score: 0.827800000

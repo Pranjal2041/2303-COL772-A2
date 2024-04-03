@@ -1,0 +1,466 @@
+Starting Training
+Processing started!
+Input taken!
+Training started!
+Starting Training
+Cuda is available
+Starting Col Training, #params =  372289
+loss in iter 5000, epoch 0 = 0.665047918510437
+loss in iter 10000, epoch 0 = 0.6593907030105591
+loss in iter 15000, epoch 0 = 0.6607446273803711
+loss in iter 20000, epoch 0 = 0.6604375617980957
+loss in iter 25000, epoch 0 = 0.6617573637008667
+Val Accuracy at the end of epoch 0 is 0.1788
+Best_accuracy now set to =  0.1788  and model saved!
+loss in iter 5000, epoch 1 = 0.6613143808364869
+loss in iter 10000, epoch 1 = 0.6596614305496216
+loss in iter 15000, epoch 1 = 0.6641270559310913
+loss in iter 20000, epoch 1 = 0.660512159538269
+loss in iter 25000, epoch 1 = 0.6610225660324097
+Val Accuracy at the end of epoch 1 is 0.196
+Best_accuracy now set to =  0.196  and model saved!
+loss in iter 5000, epoch 2 = 0.6584404161453247
+loss in iter 10000, epoch 2 = 0.6484209703445435
+loss in iter 15000, epoch 2 = 0.6231445253372192
+loss in iter 20000, epoch 2 = 0.5807723153114319
+loss in iter 25000, epoch 2 = 0.5899928112983703
+Val Accuracy at the end of epoch 2 is 0.3256
+Best_accuracy now set to =  0.3256  and model saved!
+loss in iter 5000, epoch 3 = 0.5895114998817443
+loss in iter 10000, epoch 3 = 0.5651434073448182
+loss in iter 15000, epoch 3 = 0.5547795897483826
+loss in iter 20000, epoch 3 = 0.527526238155365
+loss in iter 25000, epoch 3 = 0.520689571762085
+Val Accuracy at the end of epoch 3 is 0.41
+Best_accuracy now set to =  0.41  and model saved!
+loss in iter 5000, epoch 4 = 0.505730207157135
+loss in iter 10000, epoch 4 = 0.49886286993026735
+loss in iter 15000, epoch 4 = 0.47516005115509036
+loss in iter 20000, epoch 4 = 0.45617935705184937
+loss in iter 25000, epoch 4 = 0.44846490812301637
+Val Accuracy at the end of epoch 4 is 0.532
+Best_accuracy now set to =  0.532  and model saved!
+loss in iter 5000, epoch 5 = 0.4424318816184998
+loss in iter 10000, epoch 5 = 0.41797173981666563
+loss in iter 15000, epoch 5 = 0.4019564132213593
+loss in iter 20000, epoch 5 = 0.3834845373630524
+loss in iter 25000, epoch 5 = 0.3746231568813324
+Val Accuracy at the end of epoch 5 is 0.619
+Best_accuracy now set to =  0.619  and model saved!
+loss in iter 5000, epoch 6 = 0.37007750210762025
+loss in iter 10000, epoch 6 = 0.3687722597122192
+loss in iter 15000, epoch 6 = 0.35713462386131284
+loss in iter 20000, epoch 6 = 0.35006495447158814
+loss in iter 25000, epoch 6 = 0.3520931517601013
+Val Accuracy at the end of epoch 6 is 0.6864
+Best_accuracy now set to =  0.6864  and model saved!
+loss in iter 5000, epoch 7 = 0.3442178117752075
+loss in iter 10000, epoch 7 = 0.3286233647108078
+loss in iter 15000, epoch 7 = 0.3296583987236023
+loss in iter 20000, epoch 7 = 0.3003512686491013
+loss in iter 25000, epoch 7 = 0.29161694152355194
+Val Accuracy at the end of epoch 7 is 0.727
+Best_accuracy now set to =  0.727  and model saved!
+loss in iter 5000, epoch 8 = 0.29797000210285185
+loss in iter 10000, epoch 8 = 0.29250280101299286
+loss in iter 15000, epoch 8 = 0.2801777265787125
+loss in iter 20000, epoch 8 = 0.29081224272251127
+loss in iter 25000, epoch 8 = 0.26470636341571807
+Val Accuracy at the end of epoch 8 is 0.7464
+Best_accuracy now set to =  0.7464  and model saved!
+loss in iter 5000, epoch 9 = 0.2663928477525711
+loss in iter 10000, epoch 9 = 0.25603560183048246
+loss in iter 15000, epoch 9 = 0.25485206196308136
+loss in iter 20000, epoch 9 = 0.25125600978136065
+loss in iter 25000, epoch 9 = 0.23934722878932954
+Val Accuracy at the end of epoch 9 is 0.77
+Best_accuracy now set to =  0.77  and model saved!
+loss in iter 5000, epoch 10 = 0.23638274989128114
+loss in iter 10000, epoch 10 = 0.2322462124824524
+loss in iter 15000, epoch 10 = 0.2282918710231781
+loss in iter 20000, epoch 10 = 0.22660285476446151
+loss in iter 25000, epoch 10 = 0.2252891609430313
+Val Accuracy at the end of epoch 10 is 0.7844
+Best_accuracy now set to =  0.7844  and model saved!
+loss in iter 5000, epoch 11 = 0.2195961103081703
+loss in iter 10000, epoch 11 = 0.2085301947712898
+loss in iter 15000, epoch 11 = 0.2092000546693802
+loss in iter 20000, epoch 11 = 0.20806177698373796
+loss in iter 25000, epoch 11 = 0.20624428884387017
+Val Accuracy at the end of epoch 11 is 0.7856
+Best_accuracy now set to =  0.7856  and model saved!
+loss in iter 5000, epoch 12 = 0.1996503700494766
+loss in iter 10000, epoch 12 = 0.19845011193156242
+loss in iter 15000, epoch 12 = 0.20729186581373216
+loss in iter 20000, epoch 12 = 0.19606554616093635
+loss in iter 25000, epoch 12 = 0.1965999596774578
+Val Accuracy at the end of epoch 12 is 0.7906
+Best_accuracy now set to =  0.7906  and model saved!
+loss in iter 5000, epoch 13 = 0.18397285259962082
+loss in iter 10000, epoch 13 = 0.18744971846342087
+loss in iter 15000, epoch 13 = 0.1834461705505848
+loss in iter 20000, epoch 13 = 0.18209042162895203
+loss in iter 25000, epoch 13 = 0.1720623323261738
+Val Accuracy at the end of epoch 13 is 0.7988
+Best_accuracy now set to =  0.7988  and model saved!
+loss in iter 5000, epoch 14 = 0.17485095655024052
+loss in iter 10000, epoch 14 = 0.17441598896980284
+loss in iter 15000, epoch 14 = 0.16512766914367677
+loss in iter 20000, epoch 14 = 0.16448087373375891
+loss in iter 25000, epoch 14 = 0.1655562912940979
+Val Accuracy at the end of epoch 14 is 0.8008
+Best_accuracy now set to =  0.8008  and model saved!
+loss in iter 5000, epoch 15 = 0.16320164952278138
+loss in iter 10000, epoch 15 = 0.1662834651529789
+loss in iter 15000, epoch 15 = 0.1585021678686142
+loss in iter 20000, epoch 15 = 0.15329674589335918
+loss in iter 25000, epoch 15 = 0.1561844842404127
+Val Accuracy at the end of epoch 15 is 0.8032
+Best_accuracy now set to =  0.8032  and model saved!
+loss in iter 5000, epoch 16 = 0.15592453952133656
+loss in iter 10000, epoch 16 = 0.15994335752129554
+loss in iter 15000, epoch 16 = 0.1521624159038067
+loss in iter 20000, epoch 16 = 0.14085215066075324
+loss in iter 25000, epoch 16 = 0.1452640931248665
+Val Accuracy at the end of epoch 16 is 0.8022
+loss in iter 5000, epoch 17 = 0.14817516352012752
+loss in iter 10000, epoch 17 = 0.14961856318712236
+loss in iter 15000, epoch 17 = 0.13845908306241037
+loss in iter 20000, epoch 17 = 0.1437017848432064
+loss in iter 25000, epoch 17 = 0.1411207998216152
+Val Accuracy at the end of epoch 17 is 0.8026
+loss in iter 5000, epoch 18 = 0.14433044707477094
+loss in iter 10000, epoch 18 = 0.1519360464066267
+loss in iter 15000, epoch 18 = 0.14320279524922372
+loss in iter 20000, epoch 18 = 0.1418399364888668
+loss in iter 25000, epoch 18 = 0.1351865302324295
+Val Accuracy at the end of epoch 18 is 0.803
+loss in iter 5000, epoch 19 = 0.14024126515388488
+loss in iter 10000, epoch 19 = 0.14590283644497395
+loss in iter 15000, epoch 19 = 0.13569727642536164
+loss in iter 20000, epoch 19 = 0.1368541868239641
+loss in iter 25000, epoch 19 = 0.14009170563220977
+Val Accuracy at the end of epoch 19 is 0.8064
+Best_accuracy now set to =  0.8064  and model saved!
+loss in iter 5000, epoch 20 = 0.13337734900712966
+loss in iter 10000, epoch 20 = 0.13377406614273787
+loss in iter 15000, epoch 20 = 0.12840609685182572
+loss in iter 20000, epoch 20 = 0.12990969040989875
+loss in iter 25000, epoch 20 = 0.13469443773627282
+Val Accuracy at the end of epoch 20 is 0.8006
+loss in iter 5000, epoch 21 = 0.13221753143668175
+loss in iter 10000, epoch 21 = 0.13299931129813194
+loss in iter 15000, epoch 21 = 0.13116693033874036
+loss in iter 20000, epoch 21 = 0.13258687825798987
+loss in iter 25000, epoch 21 = 0.13220803694725036
+Val Accuracy at the end of epoch 21 is 0.7982
+loss in iter 5000, epoch 22 = 0.1303882256358862
+loss in iter 10000, epoch 22 = 0.1342343634545803
+loss in iter 15000, epoch 22 = 0.13310659999251365
+loss in iter 20000, epoch 22 = 0.12947407683432102
+loss in iter 25000, epoch 22 = 0.1317132870465517
+Val Accuracy at the end of epoch 22 is 0.8022
+loss in iter 5000, epoch 23 = 0.12816266698241233
+loss in iter 10000, epoch 23 = 0.1358421135187149
+loss in iter 15000, epoch 23 = 0.12650000857412816
+loss in iter 20000, epoch 23 = 0.13372382240593433
+loss in iter 25000, epoch 23 = 0.13543434649705888
+Val Accuracy at the end of epoch 23 is 0.7996
+loss in iter 5000, epoch 24 = 0.1315728314578533
+loss in iter 10000, epoch 24 = 0.13575194663405418
+loss in iter 15000, epoch 24 = 0.13362627093195914
+loss in iter 20000, epoch 24 = 0.1323203798979521
+loss in iter 25000, epoch 24 = 0.13292765919566155
+Val Accuracy at the end of epoch 24 is 0.7994
+loss in iter 5000, epoch 25 = 0.13448128312826158
+loss in iter 10000, epoch 25 = 0.13591112394034863
+loss in iter 15000, epoch 25 = 0.12803878063559532
+loss in iter 20000, epoch 25 = 0.1396031924664974
+loss in iter 25000, epoch 25 = 0.1278735030412674
+Val Accuracy at the end of epoch 25 is 0.7912
+loss in iter 5000, epoch 26 = 0.13054250741302967
+loss in iter 10000, epoch 26 = 0.13343421940505504
+loss in iter 15000, epoch 26 = 0.13033780049681665
+loss in iter 20000, epoch 26 = 0.13792686935067178
+loss in iter 25000, epoch 26 = 0.1398360549658537
+Val Accuracy at the end of epoch 26 is 0.7884
+loss in iter 5000, epoch 27 = 0.13927187461256982
+loss in iter 10000, epoch 27 = 0.1452909509539604
+loss in iter 15000, epoch 27 = 0.14072369117736816
+loss in iter 20000, epoch 27 = 0.14920939098894595
+loss in iter 25000, epoch 27 = 0.14151778121590614
+Val Accuracy at the end of epoch 27 is 0.7892
+loss in iter 5000, epoch 28 = 0.1402548524469137
+loss in iter 10000, epoch 28 = 0.15568041251897813
+loss in iter 15000, epoch 28 = 0.1506188330769539
+loss in iter 20000, epoch 28 = 0.15376473101377486
+loss in iter 25000, epoch 28 = 0.1562069845557213
+Val Accuracy at the end of epoch 28 is 0.782
+loss in iter 5000, epoch 29 = 0.15765686171650886
+loss in iter 10000, epoch 29 = 0.16038661875128746
+loss in iter 15000, epoch 29 = 0.164366077876091
+loss in iter 20000, epoch 29 = 0.16221256323456765
+loss in iter 25000, epoch 29 = 0.16441545489430429
+Val Accuracy at the end of epoch 29 is 0.7846
+loss in iter 5000, epoch 30 = 0.1573954426229
+loss in iter 10000, epoch 30 = 0.16829847603440284
+loss in iter 15000, epoch 30 = 0.16223550754189492
+loss in iter 20000, epoch 30 = 0.15957308586239816
+loss in iter 25000, epoch 30 = 0.16167279477715493
+Val Accuracy at the end of epoch 30 is 0.792
+loss in iter 5000, epoch 31 = 0.15432708851546048
+loss in iter 10000, epoch 31 = 0.16613655840158462
+loss in iter 15000, epoch 31 = 0.16947838454246522
+loss in iter 20000, epoch 31 = 0.1677461860835552
+loss in iter 25000, epoch 31 = 0.16683956258893012
+Val Accuracy at the end of epoch 31 is 0.7866
+loss in iter 5000, epoch 32 = 0.16544911196231843
+loss in iter 10000, epoch 32 = 0.17693964941501616
+loss in iter 15000, epoch 32 = 0.1729024957418442
+loss in iter 20000, epoch 32 = 0.17987627489566804
+loss in iter 25000, epoch 32 = 0.1737892143726349
+Val Accuracy at the end of epoch 32 is 0.7818
+loss in iter 5000, epoch 33 = 0.17483507964015008
+loss in iter 10000, epoch 33 = 0.17707233045101164
+loss in iter 15000, epoch 33 = 0.1784963889479637
+loss in iter 20000, epoch 33 = 0.18391956176161767
+loss in iter 25000, epoch 33 = 0.18602404537200928
+Val Accuracy at the end of epoch 33 is 0.7736
+loss in iter 5000, epoch 34 = 0.17815218156576157
+loss in iter 10000, epoch 34 = 0.18451636387109757
+loss in iter 15000, epoch 34 = 0.18161359544992448
+loss in iter 20000, epoch 34 = 0.18479676879644394
+loss in iter 25000, epoch 34 = 0.19109659551382066
+Val Accuracy at the end of epoch 34 is 0.7794
+loss in iter 5000, epoch 35 = 0.18337360882163048
+loss in iter 10000, epoch 35 = 0.18866332439184189
+loss in iter 15000, epoch 35 = 0.18911096304059027
+loss in iter 20000, epoch 35 = 0.1970504553079605
+loss in iter 25000, epoch 35 = 0.19609558209776878
+Val Accuracy at the end of epoch 35 is 0.7742
+loss in iter 5000, epoch 36 = 0.1873259334564209
+loss in iter 10000, epoch 36 = 0.19689795212745667
+loss in iter 15000, epoch 36 = 0.1916099459707737
+loss in iter 20000, epoch 36 = 0.19997950053215027
+loss in iter 25000, epoch 36 = 0.19973565291166306
+Val Accuracy at the end of epoch 36 is 0.7686
+loss in iter 5000, epoch 37 = 0.20050121371150018
+loss in iter 10000, epoch 37 = 0.20637478666305542
+loss in iter 15000, epoch 37 = 0.21079676541090012
+loss in iter 20000, epoch 37 = 0.20878597639799118
+loss in iter 25000, epoch 37 = 0.20769914187788963
+Val Accuracy at the end of epoch 37 is 0.7612
+loss in iter 5000, epoch 38 = 0.21253833343982698
+loss in iter 10000, epoch 38 = 0.21597945511341096
+loss in iter 15000, epoch 38 = 0.22409352130889892
+loss in iter 20000, epoch 38 = 0.22066035737991332
+loss in iter 25000, epoch 38 = 0.2213009208083153
+Val Accuracy at the end of epoch 38 is 0.7632
+loss in iter 5000, epoch 39 = 0.21433827406167985
+loss in iter 10000, epoch 39 = 0.22462411041259767
+loss in iter 15000, epoch 39 = 0.22682410411834716
+loss in iter 20000, epoch 39 = 0.22790862216949462
+loss in iter 25000, epoch 39 = 0.23565703616142272
+Val Accuracy at the end of epoch 39 is 0.7624
+loss in iter 5000, epoch 40 = 0.22013534479141236
+loss in iter 10000, epoch 40 = 0.22557351837158204
+loss in iter 15000, epoch 40 = 0.22952651768922805
+loss in iter 20000, epoch 40 = 0.22402730869054793
+loss in iter 25000, epoch 40 = 0.2295135912001133
+Val Accuracy at the end of epoch 40 is 0.7602
+loss in iter 5000, epoch 41 = 0.2290645048737526
+loss in iter 10000, epoch 41 = 0.23516388952732087
+loss in iter 15000, epoch 41 = 0.23691605899333953
+loss in iter 20000, epoch 41 = 0.2390465000987053
+loss in iter 25000, epoch 41 = 0.24318346331119536
+Val Accuracy at the end of epoch 41 is 0.7518
+loss in iter 5000, epoch 42 = 0.24229390878677368
+loss in iter 10000, epoch 42 = 0.2514689393758774
+loss in iter 15000, epoch 42 = 0.25637519187927243
+loss in iter 20000, epoch 42 = 0.24950577182769776
+loss in iter 25000, epoch 42 = 0.2514806698322296
+Val Accuracy at the end of epoch 42 is 0.7506
+loss in iter 5000, epoch 43 = 0.24664131546020507
+loss in iter 10000, epoch 43 = 0.2517981371641159
+loss in iter 15000, epoch 43 = 0.2560176715135574
+loss in iter 20000, epoch 43 = 0.24921189498901367
+loss in iter 25000, epoch 43 = 0.2599849830150604
+Val Accuracy at the end of epoch 43 is 0.7434
+loss in iter 5000, epoch 44 = 0.24998039900064467
+loss in iter 10000, epoch 44 = 0.2582380587339401
+loss in iter 15000, epoch 44 = 0.26014940214157106
+loss in iter 20000, epoch 44 = 0.26145277037620546
+loss in iter 25000, epoch 44 = 0.25794773507118224
+Val Accuracy at the end of epoch 44 is 0.7398
+loss in iter 5000, epoch 45 = 0.26254139491319656
+loss in iter 10000, epoch 45 = 0.26388449115753176
+loss in iter 15000, epoch 45 = 0.26659046667814257
+loss in iter 20000, epoch 45 = 0.27101993091106413
+loss in iter 25000, epoch 45 = 0.27233186719417574
+Val Accuracy at the end of epoch 45 is 0.7294
+loss in iter 5000, epoch 46 = 0.2696188247680664
+loss in iter 10000, epoch 46 = 0.27352068274021146
+loss in iter 15000, epoch 46 = 0.2758559400558472
+loss in iter 20000, epoch 46 = 0.2733374130725861
+loss in iter 25000, epoch 46 = 0.2839622641086578
+Val Accuracy at the end of epoch 46 is 0.728
+loss in iter 5000, epoch 47 = 0.2792536823272705
+loss in iter 10000, epoch 47 = 0.2792838675022125
+loss in iter 15000, epoch 47 = 0.27936522839069367
+loss in iter 20000, epoch 47 = 0.28906688845157624
+loss in iter 25000, epoch 47 = 0.2947481957435608
+Val Accuracy at the end of epoch 47 is 0.722
+loss in iter 5000, epoch 48 = 0.2922200302600861
+loss in iter 10000, epoch 48 = 0.29586986842155455
+loss in iter 15000, epoch 48 = 0.2979502618789673
+loss in iter 20000, epoch 48 = 0.2944504491329193
+loss in iter 25000, epoch 48 = 0.3067415813207626
+Val Accuracy at the end of epoch 48 is 0.7056
+loss in iter 5000, epoch 49 = 0.30303368408679965
+loss in iter 10000, epoch 49 = 0.3026923333644867
+loss in iter 15000, epoch 49 = 0.3128665423154831
+loss in iter 20000, epoch 49 = 0.3036630518913269
+loss in iter 25000, epoch 49 = 0.31267064163684843
+Val Accuracy at the end of epoch 49 is 0.707
+Cuda is available
+Starting Row Training, #params =  372289
+loss in iter 5000, epoch 0 = 0.6490634712219239
+loss in iter 10000, epoch 0 = 0.6341852958679199
+loss in iter 15000, epoch 0 = 0.6340934284210205
+loss in iter 20000, epoch 0 = 0.6314067512512207
+loss in iter 25000, epoch 0 = 0.6337264242172241
+Val Accuracy at the end of epoch 0 is 0.13043478260869565
+Best_accuracy now set to =  0.13043478260869565  and model saved!
+loss in iter 5000, epoch 1 = 0.6282689485549927
+loss in iter 10000, epoch 1 = 0.631951674079895
+loss in iter 15000, epoch 1 = 0.6316176422119141
+loss in iter 20000, epoch 1 = 0.6308894504547119
+loss in iter 25000, epoch 1 = 0.6362571432113647
+Val Accuracy at the end of epoch 1 is 0.14444444444444443
+Best_accuracy now set to =  0.14444444444444443  and model saved!
+loss in iter 5000, epoch 2 = 0.6296505182266235
+loss in iter 10000, epoch 2 = 0.6292104541778565
+loss in iter 15000, epoch 2 = 0.6332986999511718
+loss in iter 20000, epoch 2 = 0.6303424858093262
+loss in iter 25000, epoch 2 = 0.6312581087112427
+Val Accuracy at the end of epoch 2 is 0.1232876712328767
+loss in iter 5000, epoch 3 = 0.629609748840332
+loss in iter 10000, epoch 3 = 0.6314121307373047
+loss in iter 15000, epoch 3 = 0.6335048978805542
+loss in iter 20000, epoch 3 = 0.6311405138015747
+loss in iter 25000, epoch 3 = 0.6294640819549561
+Val Accuracy at the end of epoch 3 is 0.10236220472440945
+loss in iter 5000, epoch 4 = 0.6298980672836304
+loss in iter 10000, epoch 4 = 0.6305530019760132
+loss in iter 15000, epoch 4 = 0.6305781425476075
+loss in iter 20000, epoch 4 = 0.6298154500961304
+loss in iter 25000, epoch 4 = 0.6302039924621582
+Val Accuracy at the end of epoch 4 is 0.08823529411764706
+loss in iter 5000, epoch 5 = 0.6296768741607666
+loss in iter 10000, epoch 5 = 0.6294621448516846
+loss in iter 15000, epoch 5 = 0.6295225576400757
+loss in iter 20000, epoch 5 = 0.6322671033859253
+loss in iter 25000, epoch 5 = 0.6317384414672852
+Val Accuracy at the end of epoch 5 is 0.05952380952380952
+loss in iter 5000, epoch 6 = 0.6295276128768921
+loss in iter 10000, epoch 6 = 0.6341218227386475
+loss in iter 15000, epoch 6 = 0.6329951744079589
+loss in iter 20000, epoch 6 = 0.629775354385376
+loss in iter 25000, epoch 6 = 0.6330581514358521
+Val Accuracy at the end of epoch 6 is 0.11428571428571428
+loss in iter 5000, epoch 7 = 0.6311630693435669
+loss in iter 10000, epoch 7 = 0.6295952249526977
+loss in iter 15000, epoch 7 = 0.6316342504501343
+loss in iter 20000, epoch 7 = 0.6305828294754028
+loss in iter 25000, epoch 7 = 0.6317767053604126
+Val Accuracy at the end of epoch 7 is 0.09090909090909091
+loss in iter 5000, epoch 8 = 0.6292472442626953
+loss in iter 10000, epoch 8 = 0.6295814754486084
+loss in iter 15000, epoch 8 = 0.6315325958251953
+loss in iter 20000, epoch 8 = 0.6305712825775146
+loss in iter 25000, epoch 8 = 0.6329129251480102
+Val Accuracy at the end of epoch 8 is 0.09195402298850575
+loss in iter 5000, epoch 9 = 0.6294482568740845
+loss in iter 10000, epoch 9 = 0.6303071445465088
+loss in iter 15000, epoch 9 = 0.6315216871261596
+loss in iter 20000, epoch 9 = 0.6298013315200806
+loss in iter 25000, epoch 9 = 0.6309734958648682
+Val Accuracy at the end of epoch 9 is 0.08695652173913043
+loss in iter 5000, epoch 10 = 0.6287524381637574
+loss in iter 10000, epoch 10 = 0.6295159606933594
+loss in iter 15000, epoch 10 = 0.6330462398529053
+loss in iter 20000, epoch 10 = 0.6279476884841919
+loss in iter 25000, epoch 10 = 0.631988003540039
+Val Accuracy at the end of epoch 10 is 0.1111111111111111
+loss in iter 5000, epoch 11 = 0.6296690149307251
+loss in iter 10000, epoch 11 = 0.6302685031890869
+loss in iter 15000, epoch 11 = 0.630472066116333
+loss in iter 20000, epoch 11 = 0.6289598554611207
+loss in iter 25000, epoch 11 = 0.6320188932418823
+Val Accuracy at the end of epoch 11 is 0.08333333333333333
+loss in iter 5000, epoch 12 = 0.629402064704895
+loss in iter 10000, epoch 12 = 0.6304888696670532
+loss in iter 15000, epoch 12 = 0.6310330783843994
+loss in iter 20000, epoch 12 = 0.6285674695968628
+loss in iter 25000, epoch 12 = 0.6331735595703125
+Val Accuracy at the end of epoch 12 is 0.1504424778761062
+Best_accuracy now set to =  0.1504424778761062  and model saved!
+loss in iter 5000, epoch 13 = 0.628385552406311
+loss in iter 10000, epoch 13 = 0.6307219987869263
+loss in iter 15000, epoch 13 = 0.6287858144760132
+loss in iter 20000, epoch 13 = 0.6298082637786865
+loss in iter 25000, epoch 13 = 0.6293433885574341
+Val Accuracy at the end of epoch 13 is 0.14285714285714285
+loss in iter 5000, epoch 14 = 0.6321715259552002
+loss in iter 10000, epoch 14 = 0.6291886821746826
+loss in iter 15000, epoch 14 = 0.6315595289230347
+loss in iter 20000, epoch 14 = 0.6282748203277588
+loss in iter 25000, epoch 14 = 0.6288921329498292
+Val Accuracy at the end of epoch 14 is 0.15
+loss in iter 5000, epoch 15 = 0.6317153366088867
+loss in iter 10000, epoch 15 = 0.6283438177108764
+loss in iter 15000, epoch 15 = 0.629730862045288
+loss in iter 20000, epoch 15 = 0.6281401647567749
+loss in iter 25000, epoch 15 = 0.6282520175933838
+Val Accuracy at the end of epoch 15 is 0.07526881720430108
+loss in iter 5000, epoch 16 = 0.6243062288284301
+loss in iter 10000, epoch 16 = 0.6280251113891602
+loss in iter 15000, epoch 16 = 0.6294996068954468
+loss in iter 20000, epoch 16 = 0.6300096368789673
+loss in iter 25000, epoch 16 = 0.6298131370544433
+Val Accuracy at the end of epoch 16 is 0.17592592592592593
+Best_accuracy now set to =  0.17592592592592593  and model saved!
+loss in iter 5000, epoch 17 = 0.6263084663391113
+loss in iter 10000, epoch 17 = 0.6307217123031617
+loss in iter 15000, epoch 17 = 0.6297973558425903
+loss in iter 20000, epoch 17 = 0.6276900924682617
+loss in iter 25000, epoch 17 = 0.6275526412963868
+Val Accuracy at the end of epoch 17 is 0.11214953271028037
+loss in iter 5000, epoch 18 = 0.6249824178695679
+loss in iter 10000, epoch 18 = 0.6252310049057007
+loss in iter 15000, epoch 18 = 0.6266892225265502
+loss in iter 20000, epoch 18 = 0.6259221755981446
+loss in iter 25000, epoch 18 = 0.6282181205749512
+Val Accuracy at the end of epoch 18 is 0.11494252873563218
+loss in iter 5000, epoch 19 = 0.6267297813415528
+loss in iter 10000, epoch 19 = 0.6249207693099975
+loss in iter 15000, epoch 19 = 0.6273514610290527
+loss in iter 20000, epoch 19 = 0.6245837072372437
+loss in iter 25000, epoch 19 = 0.6295610666275024
+Val Accuracy at the end of epoch 19 is 0.12941176470588237
+All Trainings Done!
+Final models saved to : final.pth
+Shell script successfully terminated!
+Starting Evaluation
+Processing started!
+Input taken!
+Testing started!
+Starting testing!
+Cuda is available
+Shell script successfully terminated!
+Evaluating Submission
+### Evaluation Results ###
+Row score: 0.096200000
+Column score: 0.783200000
+Cell score: 0.075000000
+Aggregate score: 0.318133333

@@ -1,0 +1,57 @@
+Starting Training
+Number of arguments: 2
+Arguments: ../data/A2_train.jsonl ../data/A2_val.jsonl
+cuda
+Epoch 1/10, Train Col Loss: 1.0875, Train Col Acc: 0.5602
+matched: 14006
+Epoch 1/10, Val Col Loss: 0.6026, Val Col Acc: 0.7954
+matched: 3977
+Epoch 2/10, Train Col Loss: 0.4709, Train Col Acc: 0.8382
+matched: 20955
+Epoch 2/10, Val Col Loss: 0.4377, Val Col Acc: 0.8572
+matched: 4286
+Epoch 3/10, Train Col Loss: 0.3287, Train Col Acc: 0.8870
+matched: 22175
+Epoch 3/10, Val Col Loss: 0.4196, Val Col Acc: 0.8642
+matched: 4321
+Epoch 4/10, Train Col Loss: 0.2089, Train Col Acc: 0.9313
+matched: 23283
+Epoch 4/10, Val Col Loss: 0.3665, Val Col Acc: 0.8882
+matched: 4441
+Epoch 5/10, Train Col Loss: 0.1628, Train Col Acc: 0.9474
+matched: 23686
+Epoch 5/10, Val Col Loss: 0.3732, Val Col Acc: 0.8896
+matched: 4448
+Epoch 6/10, Train Col Loss: 0.1320, Train Col Acc: 0.9585
+matched: 23963
+Epoch 6/10, Val Col Loss: 0.3907, Val Col Acc: 0.8898
+matched: 4449
+Epoch 7/10, Train Col Loss: 0.1023, Train Col Acc: 0.9702
+matched: 24254
+Epoch 7/10, Val Col Loss: 0.3904, Val Col Acc: 0.8896
+matched: 4448
+Epoch 8/10, Train Col Loss: 0.0975, Train Col Acc: 0.9716
+matched: 24289
+Epoch 8/10, Val Col Loss: 0.3937, Val Col Acc: 0.8900
+matched: 4450
+Epoch 9/10, Train Col Loss: 0.0936, Train Col Acc: 0.9728
+matched: 24319
+Epoch 9/10, Val Col Loss: 0.3980, Val Col Acc: 0.8902
+matched: 4451
+Epoch 10/10, Train Col Loss: 0.0896, Train Col Acc: 0.9742
+matched: 24355
+Epoch 10/10, Val Col Loss: 0.3985, Val Col Acc: 0.8904
+matched: 4452
+Learning embeddings
+embeddings_learnt
+cuda
+Epoch 1/20, Train Row Loss: 2.4198
+acc:  0.17636
+Epoch 2/20, Train Row Loss: 2.0984
+acc:  0.31592
+Epoch 3/20, Train Row Loss: 1.7414
+acc:  0.43608
+Epoch 4/20, Train Row Loss: 1.4410
+acc:  0.53988
+Epoch 5/20, Train Row Loss: 1.1825
+acc:  0.62772

@@ -1,0 +1,30 @@
+[nltk_data] Error loading punkt: <urlopen error [SSL:
+[nltk_data]     CERTIFICATE_VERIFY_FAILED] certificate verify failed:
+[nltk_data]     unable to get local issuer certificate (_ssl.c:1133)>
+[nltk_data] Error loading punkt: <urlopen error [SSL:
+[nltk_data]     CERTIFICATE_VERIFY_FAILED] certificate verify failed:
+[nltk_data]     unable to get local issuer certificate (_ssl.c:1133)>
+/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200816/test_.py:146: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:275.)
+  val_data_tensor = torch.tensor(input_data_embeddings_val, dtype=torch.float32).to(device)
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200816/test_.py", line 232, in <module>
+    final_output = test_model(test_data)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200816/test_.py", line 150, in test_model
+    logits_val = model(val_data_tensor)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200816/test_.py", line 94, in forward
+    _,(hidden,_)=self.rnn(input_data)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/rnn.py", line 878, in forward
+    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+RuntimeError: Input and parameter tensors are not at the same device, found input tensor at cuda:0 and parameter tensor at cpu
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/evaluate_submission.py", line 12, in <module>
+    sub_file = [json.loads(x) for x in open(submission_file)]
+FileNotFoundError: [Errno 2] No such file or directory: 'mt1200816/predictions.jsonl'

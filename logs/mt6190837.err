@@ -1,0 +1,8 @@
+run_model.sh: line 2: $'\r': command not found
+run_model.sh: line 8: syntax error: unexpected end of file
+run_model.sh: line 2: $'\r': command not found
+run_model.sh: line 8: syntax error: unexpected end of file
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/evaluate_submission.py", line 12, in <module>
+    sub_file = [json.loads(x) for x in open(submission_file)]
+FileNotFoundError: [Errno 2] No such file or directory: 'mt6190837/predictions_new.jsonl'

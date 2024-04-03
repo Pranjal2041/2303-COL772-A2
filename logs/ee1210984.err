@@ -1,0 +1,42 @@
+[nltk_data] Error loading punkt: <urlopen error Remote end closed
+[nltk_data]     connection without response>
+/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/train.py:100: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  self.questions.append(torch.tensor(questions, dtype=torch.float32))
+/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/train.py:127: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at ../aten/src/ATen/NestedTensorImpl.cpp:178.)
+  tables_padded = torch.nested.nested_tensor(list(tables))
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/train.py", line 229, in <module>
+    main()
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/train.py", line 217, in main
+    loss += criterion(logits, label_cols)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/loss.py", line 725, in forward
+    return F.binary_cross_entropy_with_logits(input, target,
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/functional.py", line 3195, in binary_cross_entropy_with_logits
+    return torch.binary_cross_entropy_with_logits(input, target, weight, pos_weight, reduction_enum)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:0 and cpu!
+[nltk_data] Error loading punkt: <urlopen error Remote end closed
+[nltk_data]     connection without response>
+/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/test.py:85: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:261.)
+  self.questions.append(torch.tensor(questions, dtype=torch.float32))
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/test.py", line 246, in <module>
+    main()
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/test.py", line 243, in main
+    run_inference(args.test_file, args.pred_file)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/ee1210984/test.py", line 180, in run_inference
+    model.load_state_dict(torch.load('model.pth', map_location=device))
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 986, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 435, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 416, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'model.pth'
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/evaluate_submission.py", line 12, in <module>
+    sub_file = [json.loads(x) for x in open(submission_file)]
+FileNotFoundError: [Errno 2] No such file or directory: 'ee1210984/predictions_new.jsonl'

@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200797/test.py", line 144, in <module>
+    output = model(question, columns)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200797/test.py", line 127, in forward
+    question_output = self.question_encoder(question)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200797/test.py", line 103, in forward
+    output, _ = self.lstm(src)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/rnn.py", line 879, in forward
+    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
+RuntimeError: Input and parameter tensors are not at the same device, found input tensor at cuda:0 and parameter tensor at cpu

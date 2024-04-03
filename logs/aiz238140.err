@@ -1,0 +1,22 @@
+[nltk_data] Error loading punkt: <urlopen error Remote end closed
+[nltk_data]     connection without response>
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/aiz238140/main.py", line 722, in <module>
+    main()
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/aiz238140/main.py", line 715, in main
+    test(test_data_path=TEST_FILE_PATH, pred_file_path=PRED_FILE_PATH)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/aiz238140/main.py", line 697, in test
+    column_predictions = get_column_predictions(test_data_path) #INCOMPLETE
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/aiz238140/main.py", line 556, in get_column_predictions
+    GCC.load_state_dict(torch.load(column_model_path))
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 986, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 435, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 416, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'column_predictor.pth'
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/evaluate_submission.py", line 12, in <module>
+    sub_file = [json.loads(x) for x in open(submission_file)]
+FileNotFoundError: [Errno 2] No such file or directory: 'aiz238140/predictions_new.jsonl'

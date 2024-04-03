@@ -1,0 +1,11 @@
+Starting Training
+Train file: ../data/A2_train.jsonl
+Validation file: ../data/A2_val.jsonl
+Training mode
+Using device: cuda
+Starting Evaluation
+Test file: ../data/A2_test.jsonl
+Prediction file: predictions_new.jsonl
+Testing mode
+Using device: cuda
+Evaluating Submission

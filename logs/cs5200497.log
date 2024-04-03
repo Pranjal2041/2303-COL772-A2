@@ -1,0 +1,55 @@
+Starting Training
+cuda
+25000
+5000
+Dataloaders(Column) created successfully!
+Epoch [1/12], Loss: 0.8318550291106221, Accuracy: 0.7106333333333333
+Validation Accuracy: 0.9078
+Epoch [2/12], Loss: 0.4431017959433239, Accuracy: 0.8772
+Epoch [3/12], Loss: 0.3652955578083929, Accuracy: 0.9043333333333333
+Validation Accuracy: 0.9512
+Epoch [4/12], Loss: 0.3220750095744443, Accuracy: 0.9209333333333334
+Epoch [5/12], Loss: 0.2946369306672694, Accuracy: 0.9313333333333333
+Validation Accuracy: 0.9580
+Epoch [6/12], Loss: 0.27865703508646206, Accuracy: 0.9365333333333333
+Epoch [7/12], Loss: 0.2677074597352553, Accuracy: 0.9428
+Validation Accuracy: 0.9658
+Epoch [8/12], Loss: 0.26119545686759327, Accuracy: 0.9434333333333333
+Epoch [9/12], Loss: 0.2602909910529561, Accuracy: 0.9441666666666667
+Validation Accuracy: 0.9638
+Epoch [10/12], Loss: 0.2592147836859833, Accuracy: 0.9449
+Epoch [11/12], Loss: 0.26029929718430506, Accuracy: 0.9451333333333334
+Validation Accuracy: 0.9604
+Epoch [12/12], Loss: 0.26429806446390575, Accuracy: 0.9438666666666666
+Model(Column) trained successfully!
+Model(Column) saved successfully!
+25000
+Starting Training
+cuda
+25000
+5000
+Dataloaders(Column) created successfully!
+Epoch [1/12], Loss: 0.9045234268192939, Accuracy: 0.6726666666666666
+Validation Accuracy: 0.9056
+Epoch [2/12], Loss: 0.45268943428421043, Accuracy: 0.8705333333333334
+Epoch [3/12], Loss: 0.3719666349142518, Accuracy: 0.8996333333333333
+Validation Accuracy: 0.9406
+Epoch [4/12], Loss: 0.32959571008931576, Accuracy: 0.9184666666666667
+Epoch [5/12], Loss: 0.3001584600400771, Accuracy: 0.9284
+Validation Accuracy: 0.9588
+Epoch [6/12], Loss: 0.2804198748905061, Accuracy: 0.9358
+Epoch [7/12], Loss: 0.2700271421886408, Accuracy: 0.9393333333333334
+Validation Accuracy: 0.9614
+Epoch [8/12], Loss: 0.26078456439628933, Accuracy: 0.9437333333333333
+Epoch [9/12], Loss: 0.259249281136289, Accuracy: 0.9453666666666667
+Validation Accuracy: 0.9598
+Epoch [10/12], Loss: 0.26022512285315946, Accuracy: 0.9445333333333333
+Epoch [11/12], Loss: 0.2617513461113721, Accuracy: 0.9448666666666666
+Validation Accuracy: 0.9622
+Epoch [12/12], Loss: 0.2668291302025592, Accuracy: 0.9417666666666666
+Model(Column) trained successfully!
+Model(Column) saved successfully!
+25000
+Starting Evaluation
+cuda
+Evaluating Submission

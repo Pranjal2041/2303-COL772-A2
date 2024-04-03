@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/cs1210556/train_model.py", line 598, in <module>
+    store_checkpoint(row_model, optimizer_row, epoch, mean_batch_loss/total, "row_model_checkpoint_final_two.pth");
+ZeroDivisionError: division by zero

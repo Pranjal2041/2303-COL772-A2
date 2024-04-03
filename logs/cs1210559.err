@@ -1,0 +1,8 @@
+[nltk_data] Error loading stopwords: <urlopen error Remote end closed
+[nltk_data]     connection without response>
+[nltk_data] Error loading punkt: <urlopen error Remote end closed
+[nltk_data]     connection without response>
+/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/nn/modules/transformer.py:380: UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at ../aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(output, src_key_padding_mask.logical_not(), mask_check=False)
+ UserWarning: The PyTorch API of nested tensors is in prototype stage and will change in the near future. (Triggered internally at ../aten/src/ATen/NestedTensorImpl.cpp:178.)
+  output = torch._nested_tensor_from_mask(output, src_key_padding_mask.logical_not(), mask_check=False)

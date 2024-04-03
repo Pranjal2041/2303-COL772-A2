@@ -1,0 +1,33 @@
+Starting Training
+../data/A2_train.jsonl
+../data/A2_val.jsonl
+cuda
+training
+Epoch 1/10, Loss: 1.6792
+training
+Epoch 2/10, Loss: 1.5356
+training
+Epoch 3/10, Loss: 1.4765
+training
+Epoch 4/10, Loss: 1.4348
+training
+Epoch 5/10, Loss: 1.4069
+training
+Epoch 6/10, Loss: 1.3851
+training
+Epoch 7/10, Loss: 1.3675
+training
+Epoch 8/10, Loss: 1.3532
+training
+Epoch 9/10, Loss: 1.3419
+training
+Epoch 10/10, Loss: 1.3307
+Starting Evaluation
+Starting Evaluation
+cuda
+Evaluating Submission
+### Evaluation Results ###
+Row score: 0.709600000
+Column score: 0.894000000
+Cell score: 0.637600000
+Aggregate score: 0.747066667

@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/cs1210555/train.py", line 356, in <module>
+    train_model(model, raw_data, optim.Adam(model.parameters()), nn.BCEWithLogitsLoss(reduction='mean' , pos_weight=torch.Tensor([7.0]).to(device)), num_epochs=20, batch_size=32)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/cs1210555/train.py", line 281, in train_model
+    torch.save(model.state_dict(), './models/model_best.pth')
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 618, in save
+    with _open_zipfile_writer(f) as opened_zipfile:
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 492, in _open_zipfile_writer
+    return container(name_or_buffer)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/site-packages/torch/serialization.py", line 463, in __init__
+    super().__init__(torch._C.PyTorchFileWriter(self.name))
+RuntimeError: Parent directory ./models does not exist.
+Traceback (most recent call last):
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/cs1210555/test.py", line 203, in <module>
+    predict(model, test_data)
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/cs1210555/test.py", line 201, in predict
+    file.write(json.dumps({'label_col': [predicted_col],"label_cell":label_cell, 'row_indices': correct_rows , "qid":qid}) + '\n')
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/a100s2/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Tensor is not JSON serializable

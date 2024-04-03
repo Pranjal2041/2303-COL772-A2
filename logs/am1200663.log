@@ -1,0 +1,36 @@
+Starting Training
+Epoch 1, Loss: 15069.683612752566, Accuracy: 77.784%
+Validation Accuracy: 84.7%
+Epoch 2, Loss: 8382.954137190238, Accuracy: 86.724%
+Validation Accuracy: 85.5%
+Epoch 3, Loss: 6443.658540928919, Accuracy: 88.82%
+Validation Accuracy: 85.34%
+Epoch 4, Loss: 5376.293475747102, Accuracy: 90.124%
+Validation Accuracy: 85.72%
+Epoch 5, Loss: 4684.109436424193, Accuracy: 90.992%
+Validation Accuracy: 85.72%
+Epoch 6, Loss: 4409.014308960514, Accuracy: 91.3%
+Validation Accuracy: 85.76%
+Epoch 7, Loss: 4102.88797960974, Accuracy: 91.64%
+Validation Accuracy: 86.22%
+Epoch 8, Loss: 3915.477190215669, Accuracy: 91.82%
+Validation Accuracy: 86.1%
+Epoch 9, Loss: 3712.8222939972543, Accuracy: 92.184%
+Validation Accuracy: 85.78%
+Epoch 10, Loss: 3683.1467652809797, Accuracy: 92.268%
+Validation Accuracy: 86.12%
+Epoch 1, Loss: 50960.28656050924, Accuracy: 23.632%
+Validation Accuracy: 31.24%
+Epoch 2, Loss: 43064.2807261954, Accuracy: 36.144%
+Validation Accuracy: 37.04%
+Epoch 3, Loss: 37775.562161574366, Accuracy: 44.024%
+Validation Accuracy: 37.9%
+Epoch 4, Loss: 33636.54375736578, Accuracy: 50.068%
+Validation Accuracy: 38.88%
+Starting Evaluation
+Evaluating Submission
+### Evaluation Results ###
+Row score: 0.374400000
+Column score: 0.853800000
+Cell score: 0.324400000
+Aggregate score: 0.517533333
