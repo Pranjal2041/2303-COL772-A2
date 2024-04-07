@@ -1,26 +1,14 @@
-[nltk_data] Error loading punkt: <urlopen error [SSL:
-[nltk_data]     CERTIFICATE_VERIFY_FAILED] certificate verify failed:
-[nltk_data]     unable to get local issuer certificate (_ssl.c:1133)>
-[nltk_data] Error loading punkt: <urlopen error [SSL:
-[nltk_data]     CERTIFICATE_VERIFY_FAILED] certificate verify failed:
-[nltk_data]     unable to get local issuer certificate (_ssl.c:1133)>
+[nltk_data] Error loading punkt: <urlopen error Remote end closed
+[nltk_data]     connection without response>
+[nltk_data] Error loading punkt: <urlopen error Remote end closed
+[nltk_data]     connection without response>
 Traceback (most recent call last):
-  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200858/test_model.py", line 240, in <module>
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2_resub/mt1200858/test_model.py", line 252, in <module>
     actual_tester(test_file_path,model)
-  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200858/test_model.py", line 170, in actual_tester
-    pred_col = model.predict(val_all_ques_padded)
-  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200858/test_model.py", line 53, in predict
-    predictions = self.forward(all_ques)
-  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/mt1200858/test_model.py", line 39, in forward
-    lstm_output_1,lstm_output_2  = self.lstm(all_ques, (h0, c0))
-  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1511, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1520, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/home/cse/dual/cs5190443/scratch/anaconda3/envs/v100/lib/python3.9/site-packages/torch/nn/modules/rnn.py", line 878, in forward
-    result = _VF.lstm(input, hx, self._flat_weights, self.bias, self.num_layers,
-RuntimeError: Input and parameter tensors are not at the same device, found input tensor at cuda:0 and parameter tensor at cpu
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2_resub/mt1200858/test_model.py", line 194, in actual_tester
+    per_row_list.append(val_table_rows[i][j][predicted_col_index[i]])
+IndexError: list index out of range
 Traceback (most recent call last):
-  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2/evaluate_submission.py", line 12, in <module>
+  File "/scratch/cse/dual/cs5190443/col772-2302/A2_eval/COL772-2302-A2_resub/evaluate_submission.py", line 12, in <module>
     sub_file = [json.loads(x) for x in open(submission_file)]
-FileNotFoundError: [Errno 2] No such file or directory: 'mt1200858/predictions.jsonl'
+FileNotFoundError: [Errno 2] No such file or directory: 'mt1200858/predictions_new.jsonl'
